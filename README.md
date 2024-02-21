@@ -1,6 +1,11 @@
 ## Inflection
 
-#### simple
+#### Run test
+```shell
+ go test -v github.com/org-golang/inflection/testing
+```
+
+#### Simple
 ```go
 import "template-new/api/helloworld/v2/inflection"
 
