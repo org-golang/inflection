@@ -1,7 +1,7 @@
 package inflection
 
 import (
-	"inflection/contracts"
+	"github.com/org-golang/inflection/contracts"
 	"sync"
 )
 

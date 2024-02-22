@@ -1,7 +1,7 @@
 package testing
 
 import (
-	"inflection"
+	"github.com/org-golang/inflection"
 	"testing"
 )
 
@@ -9,6 +9,7 @@ var wordInflector = inflection.MakeInflector()
 
 func TestSnake(t *testing.T) {
 
+	inflection.MakeInflector()
 	result := wordInflector.Snake("AreaCity", "_")
 
 	if result != "area_city" {
